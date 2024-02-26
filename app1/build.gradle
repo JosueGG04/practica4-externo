@@ -19,6 +19,16 @@ dependencies {
     implementation "org.slf4j:slf4j-simple:2.0.3"
 }
 
+shadowJar{
+    archiveBaseName.set("app")
+    archiveClassifier.set('')
+    archiveVersion.set('')
+}
+
+task stage {
+    dependsOn shadowJar
+}
+
 test {
     useJUnitPlatform()
 }

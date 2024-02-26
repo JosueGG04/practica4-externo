@@ -1,6 +1,8 @@
 # practica4-externo
 Repositorio para hacer la practica 4 de programacion web
 
+# Descargar y correr script
+wget https://raw.githubusercontent.com/JosueGG04/practica4-externo/main/MiScript.sh && chmod +x MiScript.sh && bash MiScript.sh
 
 # Comandos
 ## Apache

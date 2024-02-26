@@ -26,6 +26,8 @@ sudo service apache2 start
 # Clonando el repositorio.
 git clone https://github.com/JosueGG04/practica4-externo.git
 
+cd practica4-externo
+
 # app1
 cd app1
 
