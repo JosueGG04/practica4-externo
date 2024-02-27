@@ -12,6 +12,7 @@ sudo apt update && sudo apt -y install zip unzip nmap apache2 certbot tree
 
 # Instalando la versión sdkman y java
 curl -s "https://get.sdkman.io" | bash
+
 source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 # Utilizando la versión de java 17 como base.

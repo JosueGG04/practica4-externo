@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Javalin app = Javalin.create().start(7070);
         app.get("/", ctx -> {
-            ctx.html("<h1>Esta es otra aplicacion</h1>");
+            ctx.html("<h1>Esta es la aplicacion 2!</h1>");
         });
     }
 }
