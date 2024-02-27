@@ -16,9 +16,9 @@ sudo a2enmod ssl
 sudo service apache2 stop
 
  
-sudo certbot certonly -m jdgg0001@ce.pucmm.edu.do -d app1.josue04.me
+sudo certbot certonly -m jdgg0001@ce.pucmm.edu.do -d app-1.josue04.me
 
-sudo certbot certonly -m jdgg0001@ce.pucmm.edu.do -d app2.josue04.me
+sudo certbot certonly -m jdgg0001@ce.pucmm.edu.do -d app-2.josue04.me
 
 ## Iniciar
 sudo a2ensite seguro.conf
