@@ -7,9 +7,6 @@ sudo swapon /swapfile
 sudo cp /etc/fstab /etc/fstab.bak
 echo '/swapfile none swap sw 0 0' | sudo tee -a /etc/fstab
 
-# Subiendo el servicio de Apache.
-sudo service apache2 start
-
 # Instando los software necesarios para probar el concepto.
 sudo apt update && sudo apt -y install zip unzip nmap apache2 certbot tree
 
@@ -26,9 +23,9 @@ sudo service apache2 start
 # Clonando el repositorio.
 git clone https://github.com/JosueGG04/practica4-externo.git
 
-sudo cp ~/practica4-externo/seguro.conf /etc/apache2/sites-available/
-
 cd practica4-externo
+
+sudo cp ~/practica4-externo/seguro.conf /etc/apache2/sites-available/
 
 # app1
 cd app1
